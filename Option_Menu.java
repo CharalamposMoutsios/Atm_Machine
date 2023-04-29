@@ -10,7 +10,7 @@ public class Option_Menu {
 	Scanner menuInput = new Scanner(System.in);
 	DecimalFormat moneyFormat = new DecimalFormat("'$'###,##0.00");
 	HashMap<Integer, Account> data = new HashMap<Integer, Account>();
-
+//a new one
 	public void getLogin() throws IOException {
 		boolean end = false;
 		int customerNumber = 0;

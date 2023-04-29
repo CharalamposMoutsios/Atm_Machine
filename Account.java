@@ -9,6 +9,7 @@ public class Account {
 	private double checkingBalance = 0;
 	private double savingBalance = 0;
 
+    
 	Scanner input = new Scanner(System.in);
 	DecimalFormat moneyFormat = new DecimalFormat("'$'###,##0.00");
 
